@@ -7,7 +7,7 @@
 
 :: Your certificate information
 set CERT_NAME="Liquid Metal Mobile"
-set CERT_PASS=calamity
+set CERT_PASS=
 set CERT_FILE="bat\LiquidMetalMobile.p12"
 set SIGNING_OPTIONS=-storetype pkcs12 -keystore %CERT_FILE% -storepass %CERT_PASS%
 
