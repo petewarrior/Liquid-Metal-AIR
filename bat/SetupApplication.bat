@@ -7,7 +7,7 @@
 
 :: Your certificate information
 set CERT_NAME="Liquid Metal Mobile"
-set CERT_PASS=fd
+set CERT_PASS=calamity
 set CERT_FILE="bat\LiquidMetalMobile.p12"
 set SIGNING_OPTIONS=-storetype pkcs12 -keystore %CERT_FILE% -storepass %CERT_PASS%
 
@@ -19,7 +19,7 @@ set APP_DIR=bin
 set FILE_OR_DIR=-C %APP_DIR% .
 
 :: Your application ID (must match <id> of Application descriptor)
-set APP_ID=LiquidMetalMobile
+set APP_ID=com.petewarrior.LiquidMetalMobile
 
 :: Output
 set AIR_PATH=air

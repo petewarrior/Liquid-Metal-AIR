@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <application xmlns="http://ns.adobe.com/air/application/2.6">
-  <id>LiquidMetalMobile</id>
+  <id>com.petewarrior.LiquidMetalMobile</id>
   <versionNumber>1.0</versionNumber>
   <filename>LiquidMetalMobile</filename>
   <name>Liquid Metal Mobile</name>
   <initialWindow>
     <title>Liquid Metal Mobile</title>
     <content>LiquidMetalMobile.swf</content>
-    <systemChrome>standard</systemChrome>
+    <systemChrome>none</systemChrome>
     <transparent>false</transparent>
     <visible>true</visible>
     <minimizable>true</minimizable>
